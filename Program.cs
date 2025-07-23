@@ -39,6 +39,13 @@ public class Student
             studentId = value;
         }
     }
+
+    public Student(string? name, DateTime dateOfBirth, string? studentId)
+    {
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.studentId = studentId;
+    }
 }
 
 class Program
